@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.card1 {
+  background-color: hsl(15, 100%, 70%);
+  background-image: url("./images/icon-work.svg");
+  grid-area: "card1";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card1 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card1 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card1 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card1 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card1 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card1 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card1 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.card2 {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url("./images/icon-play.svg");
+  grid-area: "card2";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card2 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card2 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card2 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card2 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card2 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card2 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card2 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.card3 {
+  background-color: hsl(348, 100%, 68%);
+  background-image: url("./images/icon-study.svg");
+  grid-area: "card3";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card3 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card3 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card3 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card3 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card3 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card3 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card3 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.card4 {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url("./images/icon-exercise.svg");
+  grid-area: "card4";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card4 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card4 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card4 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card4 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card4 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card4 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card4 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.card5 {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url("./images/icon-social.svg");
+  grid-area: "card5";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card5 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card5 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card5 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card5 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card5 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card5 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card5 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.card6 {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url("./images/icon-self-care.svg");
+  grid-area: "card6";
+  width: 200px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) 0;
+  background-size: 50px;
+  border-radius: 15px;
+}
+.card6 .inner-box {
+  height: 100%;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card6 .inner-box:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.card6 .inner-box .box__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card6 .inner-box .box__top .box__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.card6 .inner-box .box__top img {
+  width: 15px;
+  cursor: pointer;
+}
+.card6 .inner-box .box__hours {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.card6 .inner-box .last__hours {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "user card1 card2 card3" "user card4 card5 card6";
+}
+.container .user {
+  width: 200px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  grid-area: user;
+}
+.container .user .user__top {
+  background-color: hsl(246, 80%, 60%);
+  padding: 25px;
+  border-radius: 15px;
+}
+.container .user .user__top img {
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 25px;
+}
+.container .user .user__top .user__subtitle {
+  font-size: 0.75rem;
+  color: hsl(236, 100%, 87%);
+  margin-bottom: 5px;
+}
+.container .user .user__top .user__title {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+.container .user .user__bottom {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .user .user__bottom .user__time {
+  font-size: 0.9rem;
+  color: hsl(236, 100%, 87%);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.container .user .user__bottom .user__time:hover, .container .user .user__bottom .user__time:active {
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    height: auto;
+    display: block;
+    padding: 100px 30px;
+  }
+  .container {
+    grid-template-areas: "user" "card1" "card2" "card3" "card4" "card5" "card6";
+  }
+  .container .user {
+    width: 100%;
+  }
+  .container .user .user__top {
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .container .user .user__top img {
+    margin-bottom: 0px;
+  }
+  .container .user .user__top .user__title {
+    margin-bottom: 0px;
+  }
+  .container .user .user__bottom {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0;
+  }
+  .card1 {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url("./images/icon-work.svg");
+    grid-area: "card1";
+    width: 100%;
+  }
+  .card1 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card1 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card2 {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url("./images/icon-play.svg");
+    grid-area: "card2";
+    width: 100%;
+  }
+  .card2 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card2 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card3 {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url("./images/icon-study.svg");
+    grid-area: "card3";
+    width: 100%;
+  }
+  .card3 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card3 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card4 {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url("./images/icon-exercise.svg");
+    grid-area: "card4";
+    width: 100%;
+  }
+  .card4 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card4 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card5 {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url("./images/icon-social.svg");
+    grid-area: "card5";
+    width: 100%;
+  }
+  .card5 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card5 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card6 {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url("./images/icon-self-care.svg");
+    grid-area: "card6";
+    width: 100%;
+  }
+  .card6 .card__hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card6 .card__hours .box__hours {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=styles.css.map */
