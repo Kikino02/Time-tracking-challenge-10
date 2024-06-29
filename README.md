@@ -11,7 +11,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links:
 
-- Solution URL: [here]()
+- Solution URL: [here](https://www.frontendmentor.io/solutions/time-tracking-dashboard-by-kikino-01JQCfiAK4)
 - Live site URL: [here](https://time-tracking-challenge-10.vercel.app/)
 
 ## My process
