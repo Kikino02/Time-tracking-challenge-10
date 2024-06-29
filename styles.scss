@@ -40,12 +40,12 @@ body{
 }
 
 $cards: (
-  card1: (color: $light-red-work, image: url('./images/icon-work.svg'), area: 'card1'),
-  card2: (color: $soft-blue-play, image: url('./images/icon-play.svg'), area: 'card2'),
-  card3: (color: $light-red-study, image: url('./images/icon-study.svg'), area: 'card3'),
-  card4: (color: $lime-green-exercise, image: url('./images/icon-exercise.svg'), area: 'card4'),
-  card5: (color: $violet-social, image: url('./images/icon-social.svg'), area: 'card5'),
-  card6: (color: $soft-orange-self-care, image: url('./images/icon-self-care.svg'), area: 'card6')
+  work: (color: $light-red-work, image: url('./images/icon-work.svg'), area: 'card1'),
+  play: (color: $soft-blue-play, image: url('./images/icon-play.svg'), area: 'card2'),
+  study: (color: $light-red-study, image: url('./images/icon-study.svg'), area: 'card3'),
+  exercise: (color: $lime-green-exercise, image: url('./images/icon-exercise.svg'), area: 'card4'),
+  social: (color: $violet-social, image: url('./images/icon-social.svg'), area: 'card5'),
+  self-care: (color: $soft-orange-self-care, image: url('./images/icon-self-care.svg'), area: 'card6')
 );
 
 @mixin card-styles($bg-color, $bg-image, $grid-area) {
@@ -153,10 +153,12 @@ $cards: (
                 color: $pale-blue;
                 transition: 0.3s ease;
                 cursor: pointer;
-                &:hover,
-                &:active{
+                &:hover{
                     color: white;
                 }
+            }
+            .user__time.active{
+              color: white;
             }
         }
     }
@@ -170,6 +172,7 @@ $cards: (
         padding: 100px 30px;
     }
     .container{
+      place-items: center;
         grid-template-areas: 
         'user'
         'card1'
@@ -180,7 +183,7 @@ $cards: (
         'card6';
 
         .user{
-            width: 100%;
+            width: 400px;
             .user__top{
                 padding: 25px;
                 border-radius: 15px;
@@ -211,7 +214,7 @@ $cards: (
             map-get($properties, image),
             map-get($properties, area)
           );
-          width: 100%;
+          width: 400px;
       
       
             .card__hours{
@@ -226,4 +229,19 @@ $cards: (
             }
         }
     }
+}
+
+@media screen and (max-width: 480px){
+  .container{
+
+      .user{
+          width: 100%;
+      }
+  }
+
+  @each $name, $properties in $cards {
+      .#{$name} {
+        width: 100%;
+      }
+  }
 }

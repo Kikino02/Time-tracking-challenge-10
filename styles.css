@@ -21,7 +21,7 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
-.card1 {
+.work {
   background-color: hsl(15, 100%, 70%);
   background-image: url("./images/icon-work.svg");
   grid-area: "card1";
@@ -32,7 +32,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card1 .inner-box {
+.work .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -40,34 +40,34 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card1 .inner-box:hover {
+.work .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card1 .inner-box .box__top {
+.work .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card1 .inner-box .box__top .box__title {
+.work .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card1 .inner-box .box__top img {
+.work .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card1 .inner-box .box__hours {
+.work .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card1 .inner-box .last__hours {
+.work .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
 
-.card2 {
+.play {
   background-color: hsl(195, 74%, 62%);
   background-image: url("./images/icon-play.svg");
   grid-area: "card2";
@@ -78,7 +78,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card2 .inner-box {
+.play .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -86,34 +86,34 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card2 .inner-box:hover {
+.play .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card2 .inner-box .box__top {
+.play .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card2 .inner-box .box__top .box__title {
+.play .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card2 .inner-box .box__top img {
+.play .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card2 .inner-box .box__hours {
+.play .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card2 .inner-box .last__hours {
+.play .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
 
-.card3 {
+.study {
   background-color: hsl(348, 100%, 68%);
   background-image: url("./images/icon-study.svg");
   grid-area: "card3";
@@ -124,7 +124,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card3 .inner-box {
+.study .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -132,34 +132,34 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card3 .inner-box:hover {
+.study .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card3 .inner-box .box__top {
+.study .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card3 .inner-box .box__top .box__title {
+.study .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card3 .inner-box .box__top img {
+.study .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card3 .inner-box .box__hours {
+.study .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card3 .inner-box .last__hours {
+.study .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
 
-.card4 {
+.exercise {
   background-color: hsl(145, 58%, 55%);
   background-image: url("./images/icon-exercise.svg");
   grid-area: "card4";
@@ -170,7 +170,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card4 .inner-box {
+.exercise .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -178,34 +178,34 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card4 .inner-box:hover {
+.exercise .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card4 .inner-box .box__top {
+.exercise .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card4 .inner-box .box__top .box__title {
+.exercise .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card4 .inner-box .box__top img {
+.exercise .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card4 .inner-box .box__hours {
+.exercise .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card4 .inner-box .last__hours {
+.exercise .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
 
-.card5 {
+.social {
   background-color: hsl(264, 64%, 52%);
   background-image: url("./images/icon-social.svg");
   grid-area: "card5";
@@ -216,7 +216,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card5 .inner-box {
+.social .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -224,34 +224,34 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card5 .inner-box:hover {
+.social .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card5 .inner-box .box__top {
+.social .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card5 .inner-box .box__top .box__title {
+.social .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card5 .inner-box .box__top img {
+.social .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card5 .inner-box .box__hours {
+.social .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card5 .inner-box .last__hours {
+.social .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
 
-.card6 {
+.self-care {
   background-color: hsl(43, 84%, 65%);
   background-image: url("./images/icon-self-care.svg");
   grid-area: "card6";
@@ -262,7 +262,7 @@ body {
   background-size: 50px;
   border-radius: 15px;
 }
-.card6 .inner-box {
+.self-care .inner-box {
   height: 100%;
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
@@ -270,29 +270,29 @@ body {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.card6 .inner-box:hover {
+.self-care .inner-box:hover {
   background-color: hsl(235, 45%, 61%);
 }
-.card6 .inner-box .box__top {
+.self-care .inner-box .box__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-.card6 .inner-box .box__top .box__title {
+.self-care .inner-box .box__top .box__title {
   font-size: 0.9rem;
   font-weight: 500;
 }
-.card6 .inner-box .box__top img {
+.self-care .inner-box .box__top img {
   width: 15px;
   cursor: pointer;
 }
-.card6 .inner-box .box__hours {
+.self-care .inner-box .box__hours {
   font-weight: 300;
   font-size: 2.5rem;
   margin-bottom: 8px;
 }
-.card6 .inner-box .last__hours {
+.self-care .inner-box .last__hours {
   font-size: 0.75rem;
   color: hsl(236, 100%, 87%);
 }
@@ -341,7 +341,10 @@ body {
   transition: 0.3s ease;
   cursor: pointer;
 }
-.container .user .user__bottom .user__time:hover, .container .user .user__bottom .user__time:active {
+.container .user .user__bottom .user__time:hover {
+  color: white;
+}
+.container .user .user__bottom .user__time.active {
   color: white;
 }
 
@@ -352,10 +355,11 @@ body {
     padding: 100px 30px;
   }
   .container {
+    place-items: center;
     grid-template-areas: "user" "card1" "card2" "card3" "card4" "card5" "card6";
   }
   .container .user {
-    width: 100%;
+    width: 400px;
   }
   .container .user .user__top {
     padding: 25px;
@@ -377,94 +381,117 @@ body {
     justify-content: space-around;
     gap: 0;
   }
-  .card1 {
+  .work {
     background-color: hsl(15, 100%, 70%);
     background-image: url("./images/icon-work.svg");
     grid-area: "card1";
-    width: 100%;
+    width: 400px;
   }
-  .card1 .card__hours {
+  .work .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card1 .card__hours .box__hours {
+  .work .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  .card2 {
+  .play {
     background-color: hsl(195, 74%, 62%);
     background-image: url("./images/icon-play.svg");
     grid-area: "card2";
-    width: 100%;
+    width: 400px;
   }
-  .card2 .card__hours {
+  .play .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card2 .card__hours .box__hours {
+  .play .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  .card3 {
+  .study {
     background-color: hsl(348, 100%, 68%);
     background-image: url("./images/icon-study.svg");
     grid-area: "card3";
-    width: 100%;
+    width: 400px;
   }
-  .card3 .card__hours {
+  .study .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card3 .card__hours .box__hours {
+  .study .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  .card4 {
+  .exercise {
     background-color: hsl(145, 58%, 55%);
     background-image: url("./images/icon-exercise.svg");
     grid-area: "card4";
-    width: 100%;
+    width: 400px;
   }
-  .card4 .card__hours {
+  .exercise .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card4 .card__hours .box__hours {
+  .exercise .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  .card5 {
+  .social {
     background-color: hsl(264, 64%, 52%);
     background-image: url("./images/icon-social.svg");
     grid-area: "card5";
-    width: 100%;
+    width: 400px;
   }
-  .card5 .card__hours {
+  .social .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card5 .card__hours .box__hours {
+  .social .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  .card6 {
+  .self-care {
     background-color: hsl(43, 84%, 65%);
     background-image: url("./images/icon-self-care.svg");
     grid-area: "card6";
-    width: 100%;
+    width: 400px;
   }
-  .card6 .card__hours {
+  .self-care .card__hours {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  .card6 .card__hours .box__hours {
+  .self-care .card__hours .box__hours {
     font-size: 1.5rem;
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container .user {
+    width: 100%;
+  }
+  .work {
+    width: 100%;
+  }
+  .play {
+    width: 100%;
+  }
+  .study {
+    width: 100%;
+  }
+  .exercise {
+    width: 100%;
+  }
+  .social {
+    width: 100%;
+  }
+  .self-care {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
